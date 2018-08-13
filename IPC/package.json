@@ -1,0 +1,20 @@
+{
+  "name": "ipc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": "https://github.com/daveporras/electron-examples.git",
+  "keywords": [
+    "Electron",
+    "IPC"
+  ],
+  "author": "David Porras",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
