@@ -1,0 +1,28 @@
+{
+  "name": "electron-photoapp",
+  "version": "1.0.0",
+  "description": "A photo app made with Electron",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveporras/electron-examples.git"
+  },
+  "keywords": [
+    "Electron",
+    "photo",
+    "app"
+  ],
+  "author": "David Porras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveporras/electron-examples/issues"
+  },
+  "homepage": "https://github.com/daveporras/electron-examples#readme",
+  "devDependencies": {
+    "electron": "^2.0.7"
+  }
+}
