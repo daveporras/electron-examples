@@ -6,14 +6,14 @@ let mainWindow;
 app.on('ready', () => {
 
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1024,
+    height: 768,
     resizable: false
   });
 
   mainWindow.loadURL(`file://${path.resolve(__dirname, 'index.html')}`);
 
-  mainWindow.webContents.openDevTools();
+  mainWindow.openDevTools();
 
   mainWindow.on('close', () => {
     mainWindow = null;
